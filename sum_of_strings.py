@@ -19,5 +19,6 @@ def count_recursive(str,num):
 str = ["spam500", "bungee", "10", "100swallow", "5", "okay", "25", "-5", "5", "100s", "hi", "-25"]
 
 num = count(str)
-
+print(num)
+num = count_recursive(str)
 print(num)
